@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 200vh;
+    width:100%;
+    background-image: linear-gradient(rgba(119, 99, 207, 0.7), rgba(119, 99, 207, 0.7)), url(images/images.jpg);
+   background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.intro{
+   padding-top: 4rem;
+    text-align:  center;
+    font-family: poppins, sans-serif;
+font-size: 24px;
+line-height: 24px;
+color: white;
+}
+h1{
+    font-weight: bold;
+}
+
+.main{
+    height: 175vh;
+    background-color:rgba(11, 0, 58, 0.596);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding:3rem;
+    font-size:18px;
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    box-shadow:none ;
+    color: white;
+    
+}
+input[type=text], select{
+    padding: 13px ;
+    font-size: 16px;
+    padding-left: .5rem;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    border: 5px;
+    padding: 13px 20px;
+    background-color: rgb(2, 2, 78);
+    color: white;
+    font-size: 18px;
+    font-family: poppins, sans-serif;
+   font-weight: bold;
+ 
+}
